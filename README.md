@@ -43,7 +43,8 @@ If you use the new package feature in Vim, please note the following:
 * Make sure to read and understand the package feature: `:help package`!
 * Use the `/pack/foo/start` subdirectory to make sure the filetype plugin is
   automatically loaded for the `tex` filetypes.
-* Helptags are not generated automatically. Run `:helptags` to generate them.
+* Helptags are not generated automatically. Run `:helptags start/vimtex`
+  to generate them.
 * Please note that by default Vim puts custom `/start/` plugin directories at
   the end of the `&runtimepath`. This means the built in filetype plugin is
   loaded, which prevents VimTeX from loading. See
